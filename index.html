@@ -7,9 +7,42 @@
   <title>Document</title>
   <link type="text/css" rel="stylesheet" href="style.css"/>
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
 </head>
 <body>
+  <header>
+    <h1>Etsy</h1>
+    <div id="search-bar">
+    <input id="search" type="text">
+    <button id="search-button">Search</button>
+    </div>
+    <ul id="nav">
+      <li class="right-nav"><a href="#">
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      <p>Cart</p>
+    </a></li>
+      <li class="right-nav"><a href="#">
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      <p>Cart</p>
+    </a></li>
+      <li class="right-nav"><a href="#">
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      <p>Cart</p>
+    </a></li>
+      <li class="right-nav"><a href="#">
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      <p>Cart</p>
+    </a></li>
+    </ul>
+    <div id="cart">
+
+    </div>
+  </header>
+  <main>
+    <ul id="display-items"></ul>
+  </main>
 
 <script src="main.js"></script>
+<script src="token.js"></script>
 </body>
 </html>
